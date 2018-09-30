@@ -59,9 +59,17 @@ div.dice{
   font-size: 60px;
 }
 
+.rollings{
+  margin-right: 100px;
+  
+}
 .rolling{
   margin-left: 100px;
-}
-.status{
+  
+/* .status{
+  margin-top: 100px;
+} */
+.statuss{
   margin-top: 50px;
 }
+
