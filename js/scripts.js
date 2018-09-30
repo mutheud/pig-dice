@@ -4,6 +4,7 @@ $(document).ready(function () {
         $(".player-one").toggle(4000)
     });
 });
+//user Interface
 function rollDice() {
     var dice1 = document.getElementById("dice1");
 
@@ -30,6 +31,7 @@ function rolledDice() {
     var dicesTotal = d2;
     statuss.innerHTML = "You rolled" + dicesTotal + ".";
 };
+//Business Logic
 var total = function sum(arr) {
     var s = 0;
     for (var i = 0; i < arr.length; i++) {
